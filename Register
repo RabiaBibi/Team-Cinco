@@ -1,0 +1,157 @@
+
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="utf-8" />
+<title>Home | Networky</title>
+<meta property="og:site_name" content="Networky">
+<meta property="og:url" content="http://networky.co.uk/" />
+<meta property="article:publisher" content="http://networky.co.uk/" />
+<meta name="author" content="Networky">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta http-equiv="cleartype" content="on">
+<link rel="shortcut icon" href="/_img/favicons/favicon.ico">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+<link rel="stylesheet" href="/_styles/css/site.css?v=1" type="text/css" media="all">
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-101835515-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!--[if (gte IE 6)&(lte IE 8)&(!IEMobile)]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript" src="/_js/Respond.js"></script>
+<script type="text/javascript" src="/_js/selectivizr.js"></script>
+<![endif]-->
+</head>
+<body class="layout-home" id="page_1">
+<div class="body-wrapper">
+<header id="header">
+	<div class="wrapper">
+		<a id="logo" href="/"><img src="/_img/logo.png"> Networky</a>
+		<nav id="menu">
+			<a href="#" id="menu-toggle"><i class="fa fa-bars"></i> Menu</a>
+			<ul>
+								<li><a href="/about-us">About us</a>
+									</li>
+								<li><a href="/case-studies">Case studies</a>
+										<ul>
+												<li><a href="/case-studies/national-citizen-service">National Citizens Service</a></li>
+											</ul>
+									</li>
+								<li><a href="/contact">Contact</a>
+									</li>
+							</ul>
+			<a href="/demo" id="demo" class="btn">Request a demo</a>
+		</nav><!-- menu -->
+	</div><!-- wrapper -->
+</header>
+<div class="page no-crumbs">
+<div class="wrapper">
+	<div class="top-content">
+		<img src="/_img/home-preview.png" class="preview">
+		<h1>Helping people connect in the run-up to events</h1>
+		<p>Research shows we're much more likely to take part in an activity - join a club, attend university, or take part in volunteering - if we know someone else who is doing it, and when we know what to expect.<br></p>		<div class="bit">
+			<p>In partnership with</p>
+			<a href="https://www.behaviouralinsights.co.uk" target="_blank"><img src="/_img/bit-logo.png" srcset="/_img/bit-logo@2x.png 2x,/_img/bit-logo@3x.png 3x" class="bit-logo"></a>
+		</div><!-- bit -->
+	</div><!-- top-content -->
+	<div class="content-2">
+		<img src="/_img/buddies.jpg" class="buddies">
+		<img src="/_img/buddies.png" class="buddies-large">
+		<h2>Bringing people together</h2>
+		<p>Networky is an online buddy system where attendees are paired and chat prior to an event.<br></p>		<h3>How it works</h3>
+		<div class="how-it-works">
+			<img src="/_img/people.svg">
+			<p>People are paired or put into groups&nbsp; - either with a mentor who already knows the lay of the land, or with someone going through the experience at the same time as them.&nbsp;<br></p>		</div><!-- how-it-works -->
+		<div class="how-it-works">
+			<img src="/_img/message.svg">
+			<p>They then begin messaging - sharing thoughts on the event, and getting to know each other.&nbsp;<br></p>		</div><!-- how-it-works -->
+		<div class="how-it-works">
+			<img src="/_img/graph.svg">
+			<p>&nbsp;This leads to reduced anxiety, <a href="/case-studies/national-citizens-service" target="">increases turn-up rate</a>, and promotes engagement on the day.</p>
+<div><br></div>		</div><!-- how-it-works -->
+	</div><!-- content-2 -->
+</div><!-- wrapper -->
+<div class="orange-bg">
+	<svg viewbox="0 150 808 400">
+	  <pattern id="image" width="1000" height="667" patternUnits="userSpaceOnUse">
+	    <image xlink:href="/_img/wood-iphone-mockup.jpg" x="-170" y="0" width="1000" height="667" />
+	  </pattern>
+		<path d="M6.283,335.184L450.5,3.473A16,16,0,0,1,472.891,6.72L804.6,450.936a16,16,0,0,1-3.247,22.393L357.139,805.039a16,16,0,0,1-22.393-3.246L3.036,357.577A16,16,0,0,1,6.283,335.184Z" fill="url(#image)" />
+		<!--<path d="M200.9,94.913L756.165-319.725a20,20,0,0,1,27.992,4.059L1198.8,239.6a20.009,20.009,0,0,1-4.06,27.992L639.467,682.233a20,20,0,0,1-27.991-4.059L196.837,122.905A20,20,0,0,1,200.9,94.913Z" fill="url(#image)" />-->
+	</svg>
+</div><!-- orange-bg -->
+<div class="wrapper">
+	<div class="case-studies">
+		<h2>Case studies</h2>
+		<div class="items">
+						<div class="item">
+				<a href="/case-studies/national-citizen-service" class="image"><img src="/uploads/files/bitmap402x2028129_logo_5.png"></a>
+				<a href="/case-studies/national-citizen-service">National Citizen Service</a>
+			</div><!-- item -->
+					</div><!-- items -->
+	</div><!-- case-studies -->
+	<hr>
+	<div class="evidence">
+		<div id="squares">
+			<img src="/_img/blue-square-1.svg" class="blue-square">
+			<img src="/_img/orange-square-1.svg" class="orange-square">
+			<img src="/_img/green-square-1.svg" class="green-square">
+		</div><!-- squares -->
+		<img src="/_img/evidence.svg" id="graph">
+		<img src="/_img/light-blue-square.svg" id="light-blue-square">
+		<h2>Proven to increase attendance</h2>
+		<p>We launched Networky in June 2017 in a pilot study working with the National Citizen Service (NCS), a voluntary personal and social development programme for 15-17 year olds. We conducted a randomized controlled trial to test Networky. People were either assigned to a control group, who got business as usual, or to be put into a Networky Buddy Pair. People who were put into pairs exchanged thousands of messages over the few weeks of the pilot, and were <b>7% more likely to turn up</b> to NCS.<br></p>	</div><!-- evidence -->
+	<hr>
+	<div class="stories">
+		<h2>Buddy stories</h2>
+		<div class="story">
+			<img src="/_img/quote.svg">
+			<div class="quote">
+				<p>I was a lot calmer about it before I went, and when I did go, I had someone to talk to and I didn’t feel as alone as I thought I would.</p>
+				<p><span>&ndash; Young person on NCS</span></p>
+			</div>
+		</div><!-- story -->
+		<div class="story">
+			<img src="/_img/quote.svg">
+			<div class="quote">
+				<p>I thought it was good how we didn’t have to speak through our phones and it was online. They didn’t get my phone number and it wasn’t a social network but just that, which I liked.</p>
+				<p><span>&ndash; Young person on NCS</span></p>
+			</div>
+		</div><!-- story -->
+	</div><!-- stories -->
+</div><!-- wrapper -->
+<div class="blue-bg demo">
+	<h2>Request a demo</h2>
+	<p>Please <a href="/contact">contact us</a> or <a href="/demo">request a demo</a> if you would like to learn more.</p>	<a href="/demo" class="btn">Request a demo</a>
+</div><!-- demo -->
+    <div class="push"></div>
+      </div><!-- page -->
+</div><!-- body-wrapper -->
+<footer>
+  <div class="copyright">
+    <nav>
+            <p>Copyright &copy; Networky 2019</p>
+    </nav>
+  </div><!-- copyright -->
+</footer>
+<script type="text/javascript">
+var request_uri = "/";
+var url = "/";
+var http_host = "networky.co.uk";
+</script>
+<script language="javascript" type="text/javascript" src="/_js/jquery-1.11.1.min.js" ></script>
+<script language="javascript" type="text/javascript" src="/_js/jquery-ui.min.js" ></script>
+<script type="text/javascript"  src="/_js/app.js"></script>
+</body>
+</html>
