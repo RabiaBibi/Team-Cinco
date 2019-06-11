@@ -1,24 +1,31 @@
 <!DOCTYPE html>
-</head>
-<body class="layout-home" id="page_1">
-<div class="body-wrapper">
-<header id="header">
-	<div class="wrapper">
-		<a id="logo" href="/"><img src="/_img/logo.png"> Networky</a>
-		<nav id="menu">
-			<a href="#" id="menu-toggle"><i class="fa fa-bars"></i> Menu</a>
-			<ul>
-								<li><a href="/about-us">About us</a>
-									</li>
-								<li><a href="/case-studies">Case studies</a>
-										<ul>
-												<li><a href="/case-studies/national-citizen-service">National Citizens Service</a></li>
-											</ul>
-									</li>
-								<li><a href="/contact">Contact</a>
-									</li>
-							</ul>
-			<a href="/demo" id="demo" class="btn">Request a demo</a>
-		</nav><!-- menu -->
-	</div><!-- wrapper -->
-</header>
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Example select</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Example multiple select</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
