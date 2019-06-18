@@ -2,6 +2,12 @@ h1 {
   font-family: 'BenchNine', sans-serif;
   font-size: 100px;
   padding-left: center;
+  margin-top: 25px;
+}
+
+title {
+  padding-top: 20px;
+  margin-top: 20px;
 }
 
 p {
