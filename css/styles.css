@@ -33,7 +33,7 @@ main {
   align-items: center; /* vertically centers the contents (the text within) */
 }
 #second-navbar a:hover {
-  background-color: rgba(0, 0, 0, 0.1);  /* change color when hover over the link */
+  background-color: rgba(225, 201, 250);  /* change color when hover over the link */
 }
 
 .container {
