@@ -13,8 +13,9 @@
 <link href="https://fonts.googleapis.com/css?family=BenchNine&display=swap" rel="stylesheet">
   <!-- our custom styles -->
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
-<link rel="stylesheet" type="text/css" href="./css/about.css">
-  <title>About Us</title>
+  <link rel="stylesheet" type="text/css" href="./css/about.css">
+
+  <title>Register</title>
 
 </head>
 
@@ -49,9 +50,9 @@
        <!-- ==== END NAV BAR ===== -->
 <main>
 
-<img src="./images/logo.jpg" class="logo" alt="mentor4u logo">
+<!--<img src="./images/logo.jpg" class="logo" alt="mentor4u logo">-->
 
-<h1>About Us</h1>
+<h1>Register</h1>
 
 <p>
 Mentor 4U was established by three mentors Rabia, Nanda and Miranda.
@@ -59,30 +60,43 @@ Mentor 4U was established by three mentors Rabia, Nanda and Miranda.
 <p>
   We wanted to make it easier for mentors to register thier interest to be a mentor and be allocated a student and/or students.
 </p>
-<!-- ==== photograph grid ==== -->
-<div class="container" id="meet-the-team">
-  <h2>Meet The Team</h2>
-  <div class="row">
-    <div class="col-sm-6 col-lg-3">
-      <!-- you can wrap the <img> within an <a> tag, this turns the img into a link -->
-      <a href="https://www.linkedin.com/in/rabia-bibi/" target="_blank">
-        <img src="./images/rabia.jpg" alt="Rabia Bibi"/>
-      </a>
-      <p>Rabia Bibi</p>
-    </div>
-    <div class="col-sm-6 col-lg-3">
-      <a href="https://www.linkedin.com/in/nanda-poleon-80476a39/" target="_blank">
-      <img src="./images/nanda.png" alt="Nanda Poleon"/></a>
-      <p>Nanda Poleon</p>
-    </div>
-    <div class="col-sm-6 col-lg-3">
-      <a href="https://www.linkedin.com/in/rabia-bibi/" target="_blank">
-      <img src="./images/miranda.png" alt="Miranda Jackman"/></a>
-      <p>Miranda Jackman</p>
-    </div>
-  </div>
-</div>
 
+<form>
+
+  <div class="form-group">
+    <label for="exampleFormControlFile1">Attach CV</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlInput1"></label>
+    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+</div>
+<div class="form-group">
+    <label for="exampleFormControlInput1"></label>
+    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
+  </div>
+
+  <div class="form-group">
+     <label for="exampleInputEmail1"></label>
+     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+  </div>
+   <div class="form-group">
+     <label for="exampleInputPassword1"></label>
+     <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Contact Number">
+   </div>
+   <div class="form-group">
+     <label for="exampleInputPassword1">Please enter your secondary school name</label>
+     <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Secondary School Name">
+   </div>
+   <div class="form-group">
+     <label for="exampleInputPassword1">Why Mentor 4U</label>
+     <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Why did you register to be a mentor on the Mentor 4U?...">
+   </div>
+
+   <button type="register" class="btn btn-primary">Register</button>
+
+</form>
 
 
 
