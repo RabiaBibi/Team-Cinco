@@ -1,12 +1,82 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- this scales the content to display nicely on mobiles/tablets -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap and FontAwesome cdn links -->
+  <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=BenchNine&display=swap" rel="stylesheet">
+  <!-- our custom styles -->
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link rel="stylesheet" type="text/css" href="./css/about.css">
+
+  <title>Register</title>
+
+</head>
 
 <body>
+  <!-- ==== NAV BAR (BOOTSTRAP) ===== -->
+  <!-- use the "fixed-top" bootstrap class to fix the nav bar to the top of page.
+       BUT, remember to add enough padding to the top of the <body> -->
+       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+         <a class="navbar-brand" href="./index.html">Mentor 4U</a>
+
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item active">
+               <a class="nav-link" href="./index.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="./Register.html">Register</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="./AboutUs.html">About Us</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="./Contact.html">Contact</a>
+             </li>
+           </ul>
+         </div>
+       </nav>
+       <!-- ==== END NAV BAR ===== -->
+<main>
+
+<!--<img src="./images/logo.jpg" class="logo" alt="mentor4u logo">-->
+
+<h1>Register</h1>
+
+<p>
+Mentor 4U was established by three mentors Rabia, Nanda and Miranda.
+</p>
+<p>
+  We wanted to make it easier for mentors to register thier interest to be a mentor and be allocated a student and/or students.
+</p>
+
 <form>
+
   <div class="form-group">
+    <label for="exampleFormControlFile1">Attach CV</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
     <label for="exampleFormControlInput1">Full name</label>
     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
   </div>
+
   <div class="form-group">
+    <label for="exampleFormControlInput1"></label>
+    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+</div>
+<div class="form-group">
+    <label for="exampleFormControlInput1"></label>
+    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
     <label for="exampleFormControlSelect1">What college do you go to?</label>
     <select class="form-control" id="exampleFormControlSelect1">
       <option>Abbot</option>
@@ -16,7 +86,10 @@
       <option>Edmonton</option>
     </select>
   </div>
+
   <div class="form-group">
+     <label for="exampleInputEmail1"></label>
+     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
     <label for="exampleFormControlSelect2">Why are you signing up?</label>
     <select multiple class="form-control" id="exampleFormControlSelect2">
       <option>1</option>
@@ -30,5 +103,27 @@
     <label for="exampleFormControlTextarea1">Example textarea</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
+   <div class="form-group">
+     <label for="exampleInputPassword1"></label>
+     <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Contact Number">
+   </div>
+   <div class="form-group">
+     <label for="exampleInputPassword1">Please enter your secondary school name</label>
+     <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Secondary School Name">
+   </div>
+   <div class="form-group">
+     <label for="exampleInputPassword1">Why Mentor 4U</label>
+     <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Why did you register to be a mentor on the Mentor 4U?...">
+   </div>
+
+   <button type="register" class="btn btn-primary">Register</button>
+
 </form>
+
+
+
+</main>
+
 </body>
+
+</html>
