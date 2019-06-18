@@ -1,0 +1,38 @@
+h1 {
+  font-family: 'BenchNine', sans-serif;
+  font-size: 100px;
+  padding-left: center;
+}
+
+p {
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+h2 {
+  font-family: 'BenchNine', sans-serif;
+}
+
+.form-group {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.form-control {
+  border: 2px solid #E1C9FA;
+  width: 100%;
+  padding-left: 12px;
+  border-radius: 4px;
+}
+
+.btn-primary {
+background-color: #E1C9FA;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+float: right;
+}
