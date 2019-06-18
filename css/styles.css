@@ -91,3 +91,13 @@ footer a {
   z-index: 99;  /* Make sure it does not overlap */
   border-radius: 50%;  /* makes it round (circle if width and height are the same) */
 }
+
+.logo {
+  width: 200px;
+  height: 200px;
+  position: fixed;  /* Fixed/sticky position */
+  top: auto;  /* Place the button 20px from the bottom of the page */
+  right: 10px;  /* Place the button 30px from the right */
+   z-index: 99;/* Make sure it does not overlap */
+   /* makes it round (circle if width and height are the same) */
+}
